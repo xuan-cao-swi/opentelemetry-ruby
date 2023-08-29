@@ -6,6 +6,6 @@
 
 module OpenTelemetry
   module Common
-    VERSION = '0.19.6'
+    VERSION = '0.19.6.1'
   end
 end
