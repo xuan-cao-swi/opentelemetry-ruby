@@ -6,7 +6,6 @@
 
 require 'test_helper'
 
-# rubocop:disable Lint/ConstantDefinitionInBlock, Style/Documentation
 describe OpenTelemetry::SDK::Logs::Export::BatchLogRecordProcessor do
   BatchLogRecordProcessor = OpenTelemetry::SDK::Logs::Export::BatchLogRecordProcessor
   SUCCESS = OpenTelemetry::SDK::Logs::Export::SUCCESS
@@ -545,4 +544,3 @@ describe OpenTelemetry::SDK::Logs::Export::BatchLogRecordProcessor do
     end
   end
 end
-# rubocop:enable Lint/ConstantDefinitionInBlock, Style/Documentation
